@@ -1,3 +1,11 @@
+# 이 프로젝트는 아래 영상을 보고 제작되었음
+
+- Learn With Jason - Let's Learn SolidJS 
+    - https://www.youtube.com/watch?v=ZZ-a7B761Ds
+
+
+---
+
 ## Usage
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
