@@ -4,6 +4,12 @@
     - https://www.youtube.com/watch?v=ZZ-a7B761Ds
 
 
+- advanced reactivity 
+    - untrack (fn)
+        - prevent reactive tracking
+    - batch (fn)
+        
+
 ---
 
 ## Usage
