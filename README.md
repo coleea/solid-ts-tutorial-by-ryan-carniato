@@ -1,16 +1,19 @@
-# 이 프로젝트는 아래 영상을 보고 제작되었음
+# 이 프로젝트는 아래 영상들을 보고 제작되었음
 
 - Learn With Jason - Let's Learn SolidJS 
     - https://www.youtube.com/watch?v=ZZ-a7B761Ds
 
 
+- Creating a Signal from Scratch
+    - https://frontendmasters.com/courses/reactivity-solidjs/creating-a-signal-from-scratch/
+
+        
+---
+
 - advanced reactivity 
     - untrack (fn)
         - prevent reactive tracking
     - batch (fn)
-        
-
----
 
 ## Usage
 
