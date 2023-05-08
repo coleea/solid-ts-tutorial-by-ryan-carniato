@@ -4,6 +4,12 @@ import {Schedule} from './ResourseIsLazyEvaluation'
 import { ShareState } from './ShareState';
 import { DerivationsExample } from './RippleEffect.memo';
 import { DynamicTracking } from './DynamicTracking';
+import {ShowTest} from './Show'
+import { IndexTest } from './IndexTest';
+import { SwitchTest } from './SwitchTest';
+import { DynamicTest } from './DynamicTest';
+import { ErrorBoundryTest } from './ErrorBoundryTest';
+
 
 // import {} from 'solid-js/store'
 
@@ -11,10 +17,15 @@ const App: Component = () => {
 
   return (
     <>
-      <DynamicTracking />
+      <ErrorBoundryTest />
+      {/* <DynamicTest /> */}
+      {/* <SwitchTest /> */}
+      {/* <IndexTest /> */}
+      {/* <ShowTest /> */}
+      {/* <DynamicTracking /> */}
       {/* <DerivationsExample /> */}
-      <Schedule />
-      <ShareState />
+      {/* <Schedule /> */}
+      {/* <ShareState /> */}
     </>
   );
 };
