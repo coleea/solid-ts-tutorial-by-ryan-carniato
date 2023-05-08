@@ -9,6 +9,12 @@ import { IndexTest } from './IndexTest';
 import { SwitchTest } from './SwitchTest';
 import { DynamicTest } from './DynamicTest';
 import { ErrorBoundryTest } from './ErrorBoundryTest';
+import { CleanupTest } from './onCleanupTest';
+import { EventTest } from './EventTest';
+import { StyleTest } from './StyleTest';
+import { UseDirectives } from './UseDirectives';
+import { Todo } from './Todo';
+import { StoreTest } from './Store';
 
 
 // import {} from 'solid-js/store'
@@ -17,7 +23,13 @@ const App: Component = () => {
 
   return (
     <>
-      <ErrorBoundryTest />
+    <StoreTest />
+    {/* <Todo /> */}
+    {/* <UseDirectives /> */}
+    {/* <StyleTest /> */}
+      {/* <EventTest /> */}
+      {/* <CleanupTest /> */}
+      {/* <ErrorBoundryTest /> */}
       {/* <DynamicTest /> */}
       {/* <SwitchTest /> */}
       {/* <IndexTest /> */}
